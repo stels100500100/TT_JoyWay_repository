@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TestTusk.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4839DCBE-6CE4-4452-908C-EA84DE0CA2D0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestTusk.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestTuskEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B33865EC-191C-4FCB-9DA6-234A9B092F11}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TestTusk">
+      <UniqueIdentifier>{4E3B9F7A-B955-4267-8559-DE3CB9BDFFF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestTusk\TestTusk.Build.cs">
+      <Filter>Source\TestTusk</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestTusk\TestTusk.cpp">
+      <Filter>Source\TestTusk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestTusk\TestTusk.h">
+      <Filter>Source\TestTusk</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Private">
+      <UniqueIdentifier>{BE476D40-4436-4AE4-A177-BB6415F24374}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_GameInstance.cpp">
+      <Filter>Source\TestTusk\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Private\Player">
+      <UniqueIdentifier>{7066D431-2C9D-4D96-A8ED-74C0846326B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\Player\TT_Character.cpp">
+      <Filter>Source\TestTusk\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Private\TT_Actors">
+      <UniqueIdentifier>{586C96DB-E3F4-4F9A-BAF3-AD3BD668B682}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\EquipableItem.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_Ammo_PickUp.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_BasePickUp.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_Health_PickUp.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_JustAddHealth.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_Target.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_WeaponPickUp.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Private\TT_Actors\TT_Weapons">
+      <UniqueIdentifier>{49BE56D5-A970-450D-9068-549831D0184D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_Weapons\TT_GrenadeLauncher.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors\TT_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_Weapons\TT_Rifle.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors\TT_Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Actors\TT_Weapons\TT_WeaponActor.cpp">
+      <Filter>Source\TestTusk\Private\TT_Actors\TT_Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Private\TT_Components">
+      <UniqueIdentifier>{6D170400-BC63-4935-857B-5E9B853715B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Components\TT_HealthComponent.cpp">
+      <Filter>Source\TestTusk\Private\TT_Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Components\TT_InventoryComponent.cpp">
+      <Filter>Source\TestTusk\Private\TT_Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Private\TT_Player">
+      <UniqueIdentifier>{CDF0D42C-8BAD-4F3A-B163-960E4D6C725C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Player\TestTuskCharacter.cpp">
+      <Filter>Source\TestTusk\Private\TT_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Player\TestTuskGameMode.cpp">
+      <Filter>Source\TestTusk\Private\TT_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Player\TestTuskHUD.cpp">
+      <Filter>Source\TestTusk\Private\TT_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Player\TestTuskProjectile.cpp">
+      <Filter>Source\TestTusk\Private\TT_Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Private\TT_Widgets">
+      <UniqueIdentifier>{0FE368F9-7851-49EF-AD3C-372B0F792FDD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Widgets\TT_HealthUI.cpp">
+      <Filter>Source\TestTusk\Private\TT_Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Widgets\TT_InventoryWidget.cpp">
+      <Filter>Source\TestTusk\Private\TT_Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Widgets\TT_MapSelectorWidget.cpp">
+      <Filter>Source\TestTusk\Private\TT_Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestTusk\Private\TT_Widgets\TT_WeaponDataWidget.cpp">
+      <Filter>Source\TestTusk\Private\TT_Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Source\TestTusk\Public">
+      <UniqueIdentifier>{230D0644-7F9A-48C2-980B-888AA5BA8361}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_GameInstance.h">
+      <Filter>Source\TestTusk\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Public\Player">
+      <UniqueIdentifier>{1999A480-1943-4FCA-9748-7FC4458C46EF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\Player\TT_Character.h">
+      <Filter>Source\TestTusk\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Public\TT_Actors">
+      <UniqueIdentifier>{FBC37E6B-130E-462B-A71C-B42B3E4211BE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\EquipableItem.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_Ammo_PickUp.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_BasePickUp.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_Health_PickUp.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_JustAddHealth.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_Target.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_WeaponPickUp.h">
+      <Filter>Source\TestTusk\Public\TT_Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Public\TT_Actors\TT_Weapons">
+      <UniqueIdentifier>{93198A0D-E060-4760-915E-F17A300C9B64}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_Weapons\TT_GrenadeLauncher.h">
+      <Filter>Source\TestTusk\Public\TT_Actors\TT_Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_Weapons\TT_Rifle.h">
+      <Filter>Source\TestTusk\Public\TT_Actors\TT_Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Actors\TT_Weapons\TT_WeaponActor.h">
+      <Filter>Source\TestTusk\Public\TT_Actors\TT_Weapons</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Public\TT_Components">
+      <UniqueIdentifier>{CDECF651-8758-4FEA-B040-62F62B0EB2C2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Components\TT_CoreTypes.h">
+      <Filter>Source\TestTusk\Public\TT_Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Components\TT_HealthComponent.h">
+      <Filter>Source\TestTusk\Public\TT_Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Components\TT_InventoryComponent.h">
+      <Filter>Source\TestTusk\Public\TT_Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Public\TT_Player">
+      <UniqueIdentifier>{CC299C67-8D03-49C9-A455-17092CF52C82}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Player\TestTuskCharacter.h">
+      <Filter>Source\TestTusk\Public\TT_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Player\TestTuskGameMode.h">
+      <Filter>Source\TestTusk\Public\TT_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Player\TestTuskHUD.h">
+      <Filter>Source\TestTusk\Public\TT_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Player\TestTuskProjectile.h">
+      <Filter>Source\TestTusk\Public\TT_Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\TestTusk\Public\TT_Widgets">
+      <UniqueIdentifier>{01996CE3-BA96-4102-A3E5-F12A957B8087}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Widgets\TT_HealthUI.h">
+      <Filter>Source\TestTusk\Public\TT_Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Widgets\TT_InventoryWidget.h">
+      <Filter>Source\TestTusk\Public\TT_Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Widgets\TT_MapSelectorWidget.h">
+      <Filter>Source\TestTusk\Public\TT_Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestTusk\Public\TT_Widgets\TT_WeaponDataWidget.h">
+      <Filter>Source\TestTusk\Public\TT_Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
